@@ -24,6 +24,6 @@ jobs:
           password: ${{ secrets.MAIL_PASSWORD }}
           subject: Shanghai Weather Report (${{env.REPORT_DATE}})
           body: file://README.md
-          to: 810445061@qq.com;fuchouhuo@163.com
+          to: fuchouhuo@163.com,810445061@qq.com
           from: GitHub Actions
           content_type: text/html
